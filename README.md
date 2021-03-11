@@ -12,6 +12,7 @@ Here I am setting out to help rebalance The Legend of Bum-Bo based on what the c
 * Doesn't spawn Wisps when hurt
 ---
 ## To Look At
-* Meat Golem
-> Reducing health to 5
-* Tader
+> Meat Golem
+* Reducing health to 5?
+> Tader
+* Reducing moves to 1?
