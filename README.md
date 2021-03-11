@@ -13,4 +13,5 @@ Here I am setting out to help rebalance The Legend of Bum-Bo based on what the c
 ---
 ## To Look At
 * Meat Golem
+> Reducing health to 5
 * Tader
