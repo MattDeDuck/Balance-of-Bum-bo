@@ -1,5 +1,7 @@
 # Balance-of-Bum-bo
 
+Status: Unreleased
+
 Here I am setting out to help rebalance The Legend of Bum-Bo based on what the community feels should be adjusted.
 
 ---
