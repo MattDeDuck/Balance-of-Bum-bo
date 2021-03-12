@@ -11,7 +11,7 @@ I am testing out the balances by using the base Bum-Bo characters with no extra 
 ## Being Tested
 
 ### Tader
-* Reducing the moves to 2 (from 2)
+* Reducing the moves to 1 (from 2)
 
 ---
 ## To Look At
