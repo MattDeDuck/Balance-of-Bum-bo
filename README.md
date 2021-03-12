@@ -33,9 +33,8 @@ _**Pyre**_
 
 * Now only spawns Wisps when extinguished and doesn't spawn Wisps when hurt
 
-> Tested with Brave, Nimble, Stout, Weird, Dead
 
-| Character  | Thoughts |
+| Character  | Thoughts when tested |
 | -----------|:-------------:|
 | Brave      | Made the fight easier, however sometimes prone to damage |
 | Nimble     | Sometimes quite tough due to Toothpick being doomed     |
