@@ -19,12 +19,12 @@ I am testing out the balances by using the base Bum-Bo characters with no extra 
 ## To Look At
 
 ### Enemies
-**Meat Golem**
+_**Meat Golem**_
 * Reducing health to 5?
 
-**Tader**
+_**Tader**_
 * Reducing moves to 1?
 
 ### Bosses
 
-**Tainted Peeper**
+_**Tainted Peeper**_
