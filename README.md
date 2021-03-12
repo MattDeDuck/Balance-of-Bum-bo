@@ -13,6 +13,8 @@ I am testing out the balances by using the base Bum-Bo characters with no extra 
 ### Meat Golem
 * Health remains at 7. However no healing.
 
+> Tested with Brave, Nimble, Stout
+
 ---
 ## To Look At
 
