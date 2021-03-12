@@ -11,7 +11,7 @@ I am testing out the balances by using the base Bum-Bo characters with no extra 
 ## Being Tested
 
 ### Meat Golem
-* Health being reduced to 5 (from 7)
+* Health remains at 7. However no healing.
 
 ---
 ## To Look At
