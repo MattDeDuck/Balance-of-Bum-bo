@@ -10,10 +10,8 @@ I am testing out the balances by using the base Bum-Bo characters with no extra 
 ---
 ## Being Tested
 
-### Meat Golem
-* Health remains at 7. However no healing.
-
-> Tested with Brave, Nimble, Stout
+### Tader
+* Reducing the moves to 2 (from 2)
 
 ---
 ## To Look At
@@ -28,6 +26,12 @@ _**Tainted Peeper**_
 
 ---
 ## Tested
+
+### Enemies
+
+_**Meat Golem**_
+
+* Health remains at 7, however no healing.
 
 ### Bosses
 
