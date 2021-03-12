@@ -12,7 +12,8 @@ Putting together a compilation of balances the community have suggested and work
 * Doesn't spawn Wisps when hurt
 ---
 ## To Look At
-> Meat Golem
+### Meat Golem
 * Reducing health to 5?
-> Tader
+
+### Tader
 * Reducing moves to 1?
