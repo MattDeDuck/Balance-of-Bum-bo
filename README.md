@@ -10,21 +10,36 @@ I am testing out the balances by using the base Bum-Bo characters with no extra 
 ---
 ## Being Tested
 
-### Pyre
-* Now only spawns Wisps when extinguished
-* Doesn't spawn Wisps when hurt
+### Meat Golem
+* Health being reduced to 5 (from 7)
 
-> Tested with Brave, Nimble, Stout, Weird
 ---
 ## To Look At
 
 ### Enemies
-_**Meat Golem**_
-* Reducing health to 5?
-
 _**Tader**_
 * Reducing moves to 1?
 
 ### Bosses
 
 _**Tainted Peeper**_
+
+---
+## Tested
+
+### Bosses
+
+_**Pyre**_
+
+* Now only spawns Wisps when extinguished and doesn't spawn Wisps when hurt
+
+> Tested with Brave, Nimble, Stout, Weird, Dead
+
+| Character  | Thoughts |
+| -----------|:-------------:|
+| Brave      | Made the fight easier, however sometimes prone to damage |
+| Nimble     | Sometimes quite tough due to Toothpick being doomed     |
+| Stout      | Sometimes quite challenging due to Stick being doomed     |
+| Weird      | Made the fight even easier than it is with him |
+| Dead       | Still can 1 turn destroy due to starting items |
+
