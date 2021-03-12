@@ -13,10 +13,18 @@ I am testing out the balances by using the base Bum-Bo characters with no extra 
 ### Pyre
 * Now only spawns Wisps when extinguished
 * Doesn't spawn Wisps when hurt
+
+> Tested with Bum-Bo the Brave
 ---
 ## To Look At
-### Meat Golem
+
+### Enemies
+**Meat Golem**
 * Reducing health to 5?
 
-### Tader
+**Tader**
 * Reducing moves to 1?
+
+### Bosses
+
+**Tainted Peeper**
