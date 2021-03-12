@@ -23,6 +23,7 @@ _**Tader**_
 ### Bosses
 
 _**Tainted Peeper**_
+* ???
 
 ---
 ## Tested
