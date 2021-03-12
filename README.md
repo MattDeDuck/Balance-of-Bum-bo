@@ -14,7 +14,7 @@ I am testing out the balances by using the base Bum-Bo characters with no extra 
 * Now only spawns Wisps when extinguished
 * Doesn't spawn Wisps when hurt
 
-> Tested with Bum-Bo the Brave
+> Tested with Brave, Nimble
 ---
 ## To Look At
 
