@@ -18,4 +18,6 @@ I am testing out the balances by using Bum-Bo characters (Brave, Nimble, Stout, 
 ## Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Items.md) To look at _Spell_ changes
 
 ---
-Feel free to contact me on Discord _MattTheDuck#0570_ or post a message in the #bum-bo on the [official Binding of Isaac Discord server](https://discord.gg/isaac)
+Feel free to contact me on Discord _MattTheDuck#0570_
+
+Or even post a message in the #bum-bo on the [official Binding of Isaac Discord server](https://discord.gg/isaac)
