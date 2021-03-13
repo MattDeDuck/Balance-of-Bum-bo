@@ -1,16 +1,18 @@
 # Spell Changes
 
-These are all the changes to do with spells in game
+These are all the changes to do with spells in game.
+
+33 Character limit otherwise it breaks to 2 lines
 
 ### Changed so far
 
 _**Dog Tooth**_ - Updated description with _**"Attack that Heals You on Hit"**_
 * Original desciption - "Attack that Heals You on Kills"
 
-_**Mega Bean**_ - Updated description with _**"Knocks back Front Row + Poisons Enemies in the Air"**_
+_**Mega Bean**_ - Updated description with _**"Knocks back Front Row + Poisons"**_
 * Original desciption - "Knocks back Front Row"
 
-_**Barbed Wire**_ - Updated description with _**"Melee and Ranged Attackers Take Damage"**_
+_**Barbed Wire**_ - Updated description with _**"All Attackers Take Damage"**_
 * Original desciption - "Melee Attackers Take Damage"
 
 _**Euthanasia**_ - Updated description with _**"Hurts an Enemy"**_
