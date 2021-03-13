@@ -2,7 +2,7 @@
 
 These are all the changes to do with spells in game.
 
-33 Character limit otherwise it breaks to 2 lines
+33 Character limit for the description otherwise it breaks to 2 lines
 
 ### Changed so far
 
