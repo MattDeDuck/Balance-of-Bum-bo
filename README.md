@@ -15,7 +15,7 @@ I am testing out the balances by using Bum-Bo characters (Brave, Nimble, Stout, 
 ## Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Bosses.md) To look at _Bosses_ balance changes
 
 
-## Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Items.md) To look at _Spell_ changes
+## Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Spells.md) To look at _Spell_ changes
 
 ---
 Feel free to contact me on Discord _MattTheDuck#0570_
