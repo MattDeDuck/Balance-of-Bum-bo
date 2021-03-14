@@ -2,6 +2,8 @@
 
 ### Floor Room Info for v1.1.22
 
+27 Easy, 34 Normal, 33 Hard
+
 | Room # | Difficulty | Enemies                    |
 |--------|------------|----------------------------|
 | 0 | Normal | 1 Shit, 2 Butthead. 3 Fly  |
