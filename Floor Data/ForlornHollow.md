@@ -2,6 +2,8 @@
 
 ### Floor Room Info for v1.1.22
 
+24 Easy, 39 Normal, 24 Hard
+
 | Room # | Difficulty | Enemies                    |
 |--------|------------|----------------------------|
 | 0 | Normal | 2 Larry, 1 Burfer |
