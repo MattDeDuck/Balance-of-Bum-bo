@@ -1,6 +1,6 @@
-# Floor Room Info for v1.1.22
+# Halls of Belial
 
-## Halls of Belial
+### Floor Room Info for v1.1.22
 
 | Room # | Difficulty | Enemies                    |
 |--------|------------|----------------------------|
