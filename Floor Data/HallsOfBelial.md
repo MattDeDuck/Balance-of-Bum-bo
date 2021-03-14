@@ -2,6 +2,8 @@
 
 ### Floor Room Info for v1.1.22
 
+29 Easy, 35 Normal, 45 Hard
+
 | Room # | Difficulty | Enemies                    |
 |--------|------------|----------------------------|
 | 0 | Easy | 3 Blue Boney |
