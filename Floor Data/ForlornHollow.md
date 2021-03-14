@@ -1,6 +1,6 @@
-# Floor Room Info for v1.1.22
+# Forlorn Hollow
 
-## Forlorn Hollow
+### Floor Room Info for v1.1.22
 
 | Room # | Difficulty | Enemies                    |
 |--------|------------|----------------------------|
