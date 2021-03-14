@@ -16,4 +16,4 @@ This is information on the rooms you can encounter on the floors on the game
 | Sewers of Dross     | 27 / 34 / 33 / (93) |
 | Forlorn Hollow      | 24 / 39 / 24 / (87) |
 | Halls of Belial     | 29 / 35 / 45 / (109) |
-| The Basement        | 00 / 32 / 14 / (46) |
+| The Basement        | 0 / 32 / 14 / (46) |
