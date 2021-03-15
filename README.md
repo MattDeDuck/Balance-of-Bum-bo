@@ -9,13 +9,16 @@ Putting together a compilation of balances the community have suggested and work
 I am testing out the balances by using Bum-Bo characters (Brave, Nimble, Stout, Weird, Dead) with nothing other than starter items, spells or trinkets to gain a fair test of the balance.
 
 ---
-## Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Enemies.md) To look at _Enemies_ balance changes
+### Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Enemies.md) To look at _Enemies_ balance changes
 
 
-## Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Bosses.md) To look at _Bosses_ balance changes
+### Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Bosses.md) To look at _Bosses_ balance changes
 
 
-## Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Spells.md) To look at _Spell_ changes
+### Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Spells.md) To look at _Spell_ changes
+
+
+### Click [here](https://github.com/MattDeDuck/Balance-of-Bum-bo/blob/main/Trinkets.md) To look at _Trinket_ changes
 
 ---
 Feel free to contact me on Discord _MattTheDuck#0570_
