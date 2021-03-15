@@ -2,11 +2,15 @@
 
 These are all the changes to do with spells in game.
 
-33 Character limit for the description otherwise it breaks to 2 lines
+_33 Character limit for the description otherwise it breaks to 2 lines_
+
+---
 
 ### Being worked on currently
 
 _**D10**_ - Reworking specific floor rerolls
+
+---
 
 ### Changed so far
 
