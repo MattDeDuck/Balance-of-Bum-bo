@@ -10,14 +10,14 @@ _33 Character limit for the description otherwise it breaks to 2 lines_
 
 _**D10**_ - Reworking specific floor rerolls
 
-### Floor 1 (Sewers of Dross)
+**Floor 1 (Sewers of Dross)**
 | Ground  | Air |
 | ------------- |:-------------:|
 | Dip      | Fly     |
 | Tado      | Pooter     |
 | Arsemouth      | Boom Fly     |
 
-### Floor 2 (Forlorn Hollow)
+**Floor 2 (Forlorn Hollow)**
 | Ground  | Air |
 | ------------- |:-------------:|
 | Larry      | Fly     |
