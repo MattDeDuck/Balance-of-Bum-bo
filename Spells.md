@@ -14,8 +14,8 @@ _**D10**_ - Reworking specific floor rerolls
 | Ground  | Air |
 | ------------- |:-------------:|
 | Dip      | Fly     |
-| Tado      | Pooter     |
-| Arsemouth      | Boom Fly     |
+| Tado Kid     | Pooter     |
+| Tall Boy      | Boom Fly     |
 
 **Floor 2 (Forlorn Hollow)**
 | Ground  | Air |
@@ -23,8 +23,24 @@ _**D10**_ - Reworking specific floor rerolls
 | Larry      | Fly     |
 | Imposter      | Pooter     |
 | Greedling      | Boom Fly     |
-| Arsemouth | Longit |
+| Tall Boy | Longit |
 
+**Floor 3 (Halls of Belial)**
+| Ground  | Air |
+| ------------- |:-------------:|
+| Hopper     | Longit  |
+| Imposter      | Floater     |
+| Burfer      | Boom Fly     |
+| Red Blobby | Longit |
+| Host |  |
+
+**Floor 4 (The Basement)**
+| Ground  | Air |
+| ------------- |:-------------:|
+| Cultist     | Red Floater  |
+| Black Bobby      | Floater     |
+| Burfer      | Poofer     |
+| Red Blobby | Keeper |
 
 ---
 
