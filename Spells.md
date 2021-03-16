@@ -39,7 +39,7 @@ _**Mega Bean**_ - Updated description with _**"Knocks back Front Row + Poisons"*
 _**Barbed Wire**_ - Updated description with _**"All Attackers Take Damage"**_
 * Original desciption - "Melee Attackers Take Damage"
 
-_**Euthanasia**_ - Updated description with _**"Hurts an Enemy"**_
+_**Euthanasia**_ - Updated description with _**"Hurts an Attacking Enemy"**_
 * Original desciption - "Hurts an Enemy that Hits You"
 
 _**Bumbo Shake**_ - Updated description with _**"Reshuffles the board"**_
