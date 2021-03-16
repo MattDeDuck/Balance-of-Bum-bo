@@ -2,12 +2,13 @@
 
 ## Being Tested
 
-None at the moment
+_**Tainted Peeper**_
+* Reducing moves down to 1 (from 2)
 
 ---
 ## To Look At
 
-_**Tainted Peeper**_
+_**Loaf?**_
 * ???
 
 ---
