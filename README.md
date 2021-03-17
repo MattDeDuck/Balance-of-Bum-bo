@@ -9,7 +9,7 @@ _**Boss Balance Changes**_ - [View Here](https://github.com/MattDeDuck/Balance-o
 
 _**Spell Balance Changes**_ - [View Here](https://github.com/MattDeDuck/Balance-of-Bum-bo/wiki/Balance---Spells)
 
-_**Trinket Balance Changes**_ - [View Here](https://github.com/MattDeDuck/Balance-of-Bum-bo/wiki/Balance---Trinket)
+_**Trinket Balance Changes**_ - [View Here](https://github.com/MattDeDuck/Balance-of-Bum-bo/wiki/Balance---Trinkets)
 
 ---
 
