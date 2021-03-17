@@ -1,8 +1,5 @@
 # Balance-of-Bum-bo
 
-Status: Unreleased
-
-Currently re-doing this repo
 
 ---
 
