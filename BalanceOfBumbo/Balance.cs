@@ -23,7 +23,7 @@ namespace BalanceOfBumbo
     {
         public const string pluginGuid = "bumbo.plugins.balanceofbumbo";
         public const string pluginName = "Balance of Bumbo";
-        public const string pluginVersion = "1.0.0.0";
+        public const string pluginVersion = "1.1.0.0";
 
         private void Awake()
         {
@@ -79,7 +79,7 @@ namespace BalanceOfBumbo
 
         /* ENEMIES */
 
-        // Meat Golem - Take away a move
+        // Meat Golem - Take away a move 
         [HarmonyPostfix, HarmonyPatch(typeof(MeatGolemEnemy), "Init")]
         public static void Init_Postfix(MeatGolemEnemy __instance)
         {
@@ -90,8 +90,10 @@ namespace BalanceOfBumbo
 
         /* SPELLS */
 
+        // Gameplay changes
+
         // D10 - Reworked the floor specific enemies
-        [HarmonyReversePatch, HarmonyPatch(typeof(UseSpell), "CastSpell")] // Reverse patch allows access to `base.`  in CastSpell()
+        [HarmonyReversePatch, HarmonyPatch(typeof(UseSpell), "CastSpell")] // Reverse patch allows access to `__instance.`  in CastSpell()
         [MethodImpl(MethodImplOptions.NoInlining)]
         public static bool BaseCastSpellStub(UseSpell instance)
         {
@@ -101,7 +103,7 @@ namespace BalanceOfBumbo
         [HarmonyPrefix, HarmonyPatch(typeof(D10Spell), "CastSpell")] // Rewriting the method
         public static bool Prefix(ref D10Spell __instance)
         {
-            // use the stub as base.CastSpell()
+            // use the stub as __instance.CastSpell()
             if (!BaseCastSpellStub(__instance))
             {
                 return false;
@@ -220,6 +222,110 @@ namespace BalanceOfBumbo
 
             return true;
         }
+
+        // D4 - Added ability to remove curse tiles and shuffle the board
+        [HarmonyPrefix, HarmonyPatch(typeof(D4Spell),"CastSpell")]
+        public static bool D4Spell_Method_Prefix(D4Spell __instance)
+        {
+            if (!BaseCastSpellStub(__instance))
+            {
+                return false;
+            }
+
+            __instance.app.model.spellModel.currentSpell = __instance;
+
+            // Count and add curse tiles to list
+            List<Block> list = new List<Block>();
+            short num3 = 0;
+            short num5 = 0;
+            while ((int)num3 < __instance.app.view.puzzle.height)
+            {
+                short num4 = 0;
+                while ((int)num4 < __instance.app.view.puzzle.width)
+                {
+                    if (__instance.app.view.puzzle.blocks[(int)num4, (int)num3].GetComponent<Block>().block_type == Block.BlockType.Curse)
+                    {
+                        list.Add(__instance.app.view.puzzle.blocks[(int)num4, (int)num3].GetComponent<Block>());
+                        num5 += 1;
+                    }
+                    num4 += 1;
+                }
+                num3 += 1;
+            }
+            
+            // Go through list and replace tiles
+            while (list.Count > 0)
+            {
+                int index = UnityEngine.Random.Range(0, list.Count);
+                list[index].Despawn(false);
+                __instance.app.view.puzzle.setBlock((Block.BlockType)UnityEngine.Random.Range(0, 6), (short)list[index].position.x, (short)list[index].position.y, false, true);
+                list.RemoveAt(index);
+            }
+
+            Console.WriteLine("[Balance of Bum-Bo] Shuffled the board");
+            Console.WriteLine("[Balance of Bum-Bo] Removed " + num5.ToString() + " Curse Puzzle Pieces");
+
+            // Shuffle the board
+            __instance.app.view.puzzle.Shuffle();
+
+            __instance.app.model.spellModel.currentSpell = null;
+            __instance.app.model.spellModel.spellQueued = false;
+            
+            return true;
+        }
+
+        // Mana cost changes - || xs - 1 || s - 2 || m - 4 || l - 6 || xl - 10 || xxl - 16 || xxxl - 20 ||
+
+        // Attack Fly - Changed Mana size from L(6) to M(4)
+        [HarmonyPostfix, HarmonyPatch(typeof(AttackFlySpell), MethodType.Constructor)]
+        public static void AttackFlySpell_Ctor_Postfix(AttackFlySpell __instance)
+        {
+            __instance.manaSize = SpellElement.ManaSize.M;
+        }
+
+        // Juiced - Changed Mana size from M(4) to L(6)
+        [HarmonyPostfix, HarmonyPatch(typeof(JuicedSpell), MethodType.Constructor)]
+        public static void JuicedSpell_Ctor_Postfix(JuicedSpell __instance)
+        {
+            __instance.manaSize = SpellElement.ManaSize.L;
+        }
+
+        // Time Walker - Changed Mana size from XXXL(20) to XL(10)
+        [HarmonyPostfix, HarmonyPatch(typeof(TimeWalkerSpell), MethodType.Constructor)]
+        public static void TimeWalkerSpell_Ctor_Postfix(TimeWalkerSpell __instance)
+        {
+            __instance.manaSize = SpellElement.ManaSize.XL;
+        }
+
+        // Wooden Spoon - Changed Mana size from XXXL(20) to XL(10)
+        [HarmonyPostfix, HarmonyPatch(typeof(WoodenSpoonSpell), MethodType.Constructor)]
+        public static void WoodenSpoonSpell_Ctor_Postfix(WoodenSpoonSpell __instance)
+        {
+            __instance.manaSize = SpellElement.ManaSize.XL;
+        }
+
+        // Buzz Up - Changed Mana size from XS(1) to S(2)
+        [HarmonyPostfix, HarmonyPatch(typeof(BuzzUpSpell), MethodType.Constructor)]
+        public static void BuzzUpSpell_Ctor_Postfix(BuzzUpSpell __instance)
+        {
+            __instance.manaSize = SpellElement.ManaSize.S;
+        }
+
+        // Buzz Right - Changed Mana size from XS(1) to S(2)
+        [HarmonyPostfix, HarmonyPatch(typeof(BuzzRightSpell), MethodType.Constructor)]
+        public static void BuzzRightSpell_Ctor_Postfix(BuzzRightSpell __instance)
+        {
+            __instance.manaSize = SpellElement.ManaSize.S;
+        }
+
+        // Buzz Down - Changed Mana size from XS(1) to S(2)
+        [HarmonyPostfix, HarmonyPatch(typeof(BuzzDownSpell), MethodType.Constructor)]
+        public static void BuzzDownSpell_Ctor_Postfix(BuzzDownSpell __instance)
+        {
+            __instance.manaSize = SpellElement.ManaSize.S;
+        }
+
+        // Description changes
 
         // Dog Tooth - Updated description from "Attack that Heals You on Kill"
         [HarmonyPostfix, HarmonyPatch(typeof(DogToothSpell), MethodType.Constructor)]
