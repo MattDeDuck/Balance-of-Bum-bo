@@ -31,4 +31,4 @@ Note: If you don't know where this is right click the game in Steam and go to `M
 ---
 Feel free to contact me on Discord _MattTheDuck#0570_
 
-Or even post a message in the #bum-bo on the [official Binding of Isaac Discord server](https://discord.gg/isaac)
+Or even post a message in the _**#bum-bo**_ channel on the [official Binding of Isaac Discord server](https://discord.gg/isaac)
