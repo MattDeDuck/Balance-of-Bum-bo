@@ -1,5 +1,8 @@
 # Balance-of-Bum-bo
 
+---
+
+This mod helps balance some of the enemies/bosses/spells/trinkets within The Legend of Bum-Bo game
 
 ---
 
