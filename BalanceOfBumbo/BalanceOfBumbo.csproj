@@ -36,7 +36,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Balance.cs" />
+    <Compile Include="Bosses.cs" />
+    <Compile Include="Enemies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spells.cs" />
+    <Compile Include="Trinkets.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
